@@ -1,0 +1,115 @@
+@media (min-width: 1024px) {
+  
+  .attractions .img-container {
+    width: 300px;
+    margin: 1em .2em;
+  }
+  .attractions div img {
+    width: 300px !important;
+  }
+
+  .shading {
+    margin-top: -19em !important;
+  }
+
+}
+
+
+@media (min-width: 992px) {
+  #mainNav {
+    height: 80px;
+  }
+  #navbarNav li:not(:first-child):not(:last-child):before {
+      content: "";
+      border: 2px #A2282B solid !important;
+      border-radius: 50px;
+      margin-top: 16px;
+      position: absolute;
+    }
+
+    .attractions div img {
+      width: 200px;
+    }
+
+    .bbTop {
+      height: 350px;
+    }
+    .bbTop img {
+      margin-top: 3em;
+      margin-bottom: 0;
+      width: 250px;
+    }
+    .bb-description {
+      margin-top: -35px;
+    }
+    
+}
+
+@media (max-width: 992px) {
+  #subNav {
+    display: none;
+  }
+}
+
+@media (min-width: 767px) {
+
+  .carousel-title h1 {
+      font-size: 2.5rem;
+      margin-top: 2em;
+    }
+
+  .carousel-indicators {
+      bottom: 0;
+    }
+
+  .carousel-indicators [data-bs-target] {
+      width: 150px;
+        }
+    
+  .carousel-title h1 {
+      display: flex;
+      flex-direction: row;
+      text-align: center;
+    }
+    .carousel-title span {
+      padding-left: .5rem;
+    }
+
+    .btn-container button {
+      height: 30px;
+      margin-top: 1em;
+    }
+    .plan-arrow {
+      right: 11.5em;
+    }
+
+    /* figure img {
+      width: 150px;
+    } */
+  
+    #highlights h6, #highlights
+    a {
+      padding-top: 1em;
+      color: #f8f6f2;
+      text-decoration: none;
+      font-size: xx-large;
+    }
+         .fests-ent h6 {
+           padding-top: 0;
+         }
+
+        .arts-culture, .historic-district, .fests-ent, .outdoors {
+          height: 150px;
+        }
+
+    .shading {
+      height: 310px;
+      margin-top: -19.5em;
+    }
+
+    .footer-nav {
+      flex-direction: row !important;
+    }
+}
+
+
