@@ -1,3 +1,37 @@
+@media (min-width: 1200px){
+  .carousel-title h1 {
+    font-size: 4em !important;
+  }
+
+  .carousel-indicators {
+    bottom: 4em !important;
+  }
+    .carousel-indicators [data-bs-target] {
+      width: 200px !important;
+    }
+
+  .topLine img {
+    width: 275px;
+  }
+
+  .btn-container button {
+    height: 50px !important;
+    width: 250px !important;
+  }
+
+  .plan-btn {
+    font-size: large !important;
+  }
+
+  .plan-arrow {
+    right: 10em !important;
+  }
+  .plan-arrow img {
+    width: 25px !important;
+  }
+}
+
+
 @media (min-width: 1024px) {
   
   .attractions .img-container {

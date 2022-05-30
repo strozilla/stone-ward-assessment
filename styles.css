@@ -114,7 +114,7 @@ p :not([class^="fa"])  {
 }
 .topLine img {
   width: 100%;
-  max-width: 150px;
+  width: 150px;
 }
 
 /*****Plan Button*****/
