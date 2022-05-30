@@ -303,6 +303,10 @@ p :not([class^="fa"])  {
   padding: 1em;
 }
 
+.footer-bg a {
+  color: #f8f6f2;
+}
+
 .footer-nav a {
   color: #f8f6f2;
   text-decoration: underline;
